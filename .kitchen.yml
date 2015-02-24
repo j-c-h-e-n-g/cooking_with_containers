@@ -25,7 +25,9 @@ platforms:
       username: dockerfile
       password: dockerfile
       dockerfile: dockerfiles/Dockerfile
-      # run_command: /sbin/init
+  - name: pxe
+    driver:
+      dockerfile: dockerfiles/pxe
   - name: database
     driver:
       image: ubuntu:14.04
