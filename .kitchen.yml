@@ -25,7 +25,7 @@ platforms:
       username: dockerfile
       password: dockerfile
       dockerfile: test/Dockerfile
-      run_command: /sbin/init
+      # run_command: /sbin/init
   - name: database
     driver:
       image: ubuntu:14.04
