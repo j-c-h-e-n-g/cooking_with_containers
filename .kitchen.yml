@@ -24,7 +24,7 @@ platforms:
     driver:
       username: dockerfile
       password: dockerfile
-      dockerfile: test/Dockerfile
+      dockerfile: dockerfiles/Dockerfile
       # run_command: /sbin/init
   - name: database
     driver:
